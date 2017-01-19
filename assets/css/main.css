@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url('../fonts/Inconsolata.eot');
+    src: url('../fonts/Inconsolata.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inconsolata.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url('../fonts/HelveticaNeue.eot');
+    src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeue.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Helvetica Neue Light";
+    src: url('../fonts/HelveticaNeueLight.eot');
+    src: url('../fonts/HelveticaNeueLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Source Sans Pro ExtraLight";
+    src: url('../fonts/ssp-ex.eot');
+    src: url('../fonts/ssp-ex.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ssp-ex.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('../fonts/ssp.eot');
+    src: url('../fonts/ssp.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ssp.woff') format('woff');
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    color: #404040;
+}
+
+.banner {
+    font-size: 60px;
+    text-align: center;
+}
+
+.banner .title {
+    padding: 20px 50px;
+    color: #fff;
+    display: inline-block;
+    margin: auto;
+}
+
+.banner .title .upper {
+}
+
+.banner .title .lower {
+    font-size: 26px;
+    font-family: "Source Sans Pro ExtraLight";
+    text-align: center;
+}
+
+.banner .title span.decor {
+    position: relative;
+    top: -0.08em; /* baseline fix */
+    font-family: "Inconsolata";
+    color: #c5abb6;
+}
+
+.banner .title span.first {
+    font-family: "Source Sans Pro ExtraLight";
+}
+
+.banner .title span.last {
+    font-family: "Source Sans Pro";
+}
+
+.banner {
+    background-color: #5f4751;
+    -moz-box-shadow:    0px 2px 3px 3px #aaa;
+    -webkit-box-shadow: 0px 2px 3px 3px #aaa;
+    box-shadow:         0px 2px 3px 3px #aaa;
+}
+
+.banner .title span.name {
+    font-size: 21px;
+    font-family: "Inconsolata";
+    color: #c5abb6;
+    vertical-align: top;
+    position: relative;
+    top: 0.8em;
+}
+
+.container {
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    padding: 20px 50px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+.avatar {
+    float: left;
+    width: 120px;
+    margin: 0 20px 20px 0;
+    -webkit-box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.75);
+}
+
+.floatclear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #824e64;
+}
+
+h1 {
+    font-family: "Source Sans Pro";
+    font-size: 28px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+ul > li:before {
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    float: left;
+    margin-left: -17px;
+    color: #824e64;
+}
+
+@media (max-width: 525px) {
+    .banner {
+        font-size: 40px;
+    }
+
+    .banner .title {
+        padding: 5px 18px;
+    }
+
+    .banner .title span.name {
+        font-size: 14px;
+    }
+
+    .banner .title .lower {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 5px 18px;
+        font-size: 16px;
+    }
+}
