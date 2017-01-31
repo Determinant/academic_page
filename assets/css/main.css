@@ -93,9 +93,9 @@ body {
     font-size: 21px;
     font-family: "Inconsolata";
     color: #c5abb6;
-    vertical-align: top;
+    vertical-align: baseline;
     position: relative;
-    top: 0.8em;
+    top: -2em;
 }
 
 .container {
