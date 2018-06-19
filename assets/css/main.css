@@ -145,7 +145,7 @@ ul > li:before {
 
 @media (max-width: 525px) {
     .banner {
-        font-size: 40px;
+        font-size: 48px;
     }
 
     .banner .title {
@@ -153,11 +153,11 @@ ul > li:before {
     }
 
     .banner .title span.name {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .banner .title .lower {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     h1 {
@@ -167,5 +167,12 @@ ul > li:before {
     .container {
         padding: 5px 18px;
         font-size: 16px;
+    }
+
+    .avatar {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
