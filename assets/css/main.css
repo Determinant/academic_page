@@ -149,11 +149,11 @@ ul > li:before {
     }
 
     .banner .title {
-        padding: 5px 18px;
+        padding: 5px 10px;
     }
 
     .banner .title span.name {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .banner .title .lower {
