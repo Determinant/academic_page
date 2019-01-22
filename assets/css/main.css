@@ -147,6 +147,16 @@ ul > li:before {
     color: #824e64;
 }
 
+span.author-list {
+    font-size: 16px;
+    font-style: italic;
+    color: #a08490;
+}
+
+span.author-list .author-me {
+    color: #404040;
+}
+
 @media (max-width: 525px) {
     .banner {
         font-size: 48px;
