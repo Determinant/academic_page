@@ -147,6 +147,10 @@ ul > li:before {
     color: #824e64;
 }
 
+ul > li a {
+    word-break: break-all;
+}
+
 span.author-list {
     font-size: 16px;
     font-style: italic;
