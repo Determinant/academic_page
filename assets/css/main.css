@@ -6,10 +6,10 @@
 }
 
 @font-face {
-    font-family: "Inconsolata";
-    src: url('../fonts/Inconsolata.eot');
-    src: url('../fonts/Inconsolata.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inconsolata.woff') format('woff');
+    font-family: "FantasqueSansMono";
+    src: url('../fonts/FantasqueSansMono-Regular.eot');
+    src: url('../fonts/FantasqueSansMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FantasqueSansMono-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -73,7 +73,7 @@ body {
 .banner .title span.decor {
     position: relative;
     top: -0.08em; /* baseline fix */
-    font-family: "Inconsolata";
+    font-family: "FantasqueSansMono";
     color: #c5abb6;
 }
 
@@ -94,7 +94,7 @@ body {
 
 .banner .title span.name {
     font-size: 21px;
-    font-family: "Inconsolata";
+    font-family: "FantasqueSansMono";
     color: #c5abb6;
     vertical-align: baseline;
     position: relative;
