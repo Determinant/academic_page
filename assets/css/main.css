@@ -135,7 +135,7 @@ body {
 .avatar {
     float: left;
     width: 145px;
-    margin: 0 40px 20px 0;
+    margin: 0 40px 0 0;
     -webkit-box-shadow: 6px 6px 8px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 6px 8px -4px rgba(0,0,0,0.75);
     box-shadow: 6px 6px 8px -4px rgba(0,0,0,0.75);
@@ -166,8 +166,9 @@ ul > li {
 }
 
 ul > li:before {
-    content: "\e080";
-    font-family: 'Glyphicons Halflings';
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
     font-size: 10px;
     float: left;
     margin-left: -17px;
@@ -185,6 +186,150 @@ span.author-list {
 
 span.author-list .author-me {
     font-style: italic;
+}
+
+table td.contact-key {
+    text-align: right;
+    vertical-align: top;
+    padding-right: 1ex;
+    font-weight: 700;
+}
+
+table td.contact-val {
+    text-align: left;
+    vertical-align: top;
+}
+
+table.contact-table {
+    font-size: 1rem;
+    border-spacing: 0;
+    border: none;
+    padding: 0;
+}
+
+.section-indent {
+    padding-left: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-indent:last-child {
+    margin-bottom: 0;
+}
+
+.container .hl1 {
+    color: #fda333;
+}
+
+.container .hl2 {
+    color: #d95b43;
+}
+
+.container .hl3 {
+    color: #c02942;
+}
+
+.container .hl4 {
+    color: #53777a;
+}
+
+ul.social > li:before {
+    font-size: 1rem;
+}
+
+ul > li.cv:before {
+    margin-left: -20px;
+    content: "\f15b";
+}
+ul > li.github:before {
+    font-family: "Font Awesome 5 Brands";
+    margin-left: -22px;
+    content: "\f09b";
+}
+ul > li.git:before {
+    font-family: "Font Awesome 5 Brands";
+    margin-left: -22px;
+    content: "\f1d3";
+}
+ul > li.plain:before {
+    content: "";
+}
+ul > li.plain {
+    font-size: 1rem;
+    margin-left: -22px;
+}
+ul > li.blog:before {
+    margin-left: -22px;
+    content: "\f781";
+}
+ul > li.email:before {
+    margin-left: -22px;
+    content: "\f0e0";
+}
+ul > li.sms:before {
+    margin-left: -22px;
+    content: "\f075";
+}
+
+/*! PocketGrid 1.1.0
+ * Copyright 2013 Arnaud Leray
+ * MIT License
+ */
+/* Border-box-sizing */
+.block-group, .block, .block-group:after, .block:after, .block-group:before, .block:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Clearfix */
+.block-group {
+    *zoom: 1;
+}
+.block-group:before, .block-group:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.block-group:after {
+    clear: both;
+}
+
+.block-group {
+    /* ul/li compatibility */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nested grid */
+.block-group > .block-group {
+    clear: none;
+    float: left;
+    margin: 0 !important;
+}
+
+/* Default block */
+.block {
+    float: left;
+    width: 100%;
+}
+
+.two-column {
+    width: 45%;
+    margin-right: 10%;
+}
+
+.social-section {
+    margin-top: -1rem;
+}
+
+.social-section .two-column:last-child {
+    margin-right: 0;
+}
+
+.container h1:first-child {
+    margin-top: 1rem;
 }
 
 @media (max-width: 550px) {
@@ -214,10 +359,12 @@ span.author-list .author-me {
     }
 
     .avatar {
+        width: 180px;
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 1rem;
     }
 
     @keyframes introb {
@@ -227,6 +374,10 @@ span.author-list .author-me {
         100% {
             height: 5.94rem;
         }
+    }
+
+    .two-column {
+        width: 100%;
     }
 }
 
@@ -242,43 +393,4 @@ span.author-list .author-me {
             height: 5.58rem;
         }
     }
-}
-
-table td.contact-key {
-    text-align: right;
-    vertical-align: top;
-    padding-right: 1ex;
-    font-weight: 700;
-}
-
-table td.contact-val {
-    text-align: left;
-    vertical-align: top;
-}
-
-table.contact-table {
-    font-size: 1rem;
-    border-spacing: 0;
-    border: none;
-    padding: 0;
-}
-
-.section-indent {
-    padding-left: 40px;
-}
-
-.container .hl1 {
-    color: #fda333;
-}
-
-.container .hl2 {
-    color: #d95b43;
-}
-
-.container .hl3 {
-    color: #c02942;
-}
-
-.container .hl4 {
-    color: #53777a;
 }
