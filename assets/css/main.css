@@ -155,6 +155,10 @@ a {
     color: #ffffff;
 }
 
+.special:hover {
+    color: #a08490;
+}
+
 h1 {
     font-family: "Source Sans Pro";
     font-size: 1.5em;
