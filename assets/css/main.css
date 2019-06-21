@@ -127,7 +127,7 @@ body {
 
 .avatar {
     float: left;
-    width: 145px;
+    width: 200px;
     margin: 0 1.5rem 0 0;
     -webkit-box-shadow: 6px 6px 8px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 6px 6px 8px -4px rgba(0,0,0,0.75);
@@ -352,7 +352,7 @@ ul > li.sms:before {
     }
 
     .avatar {
-        width: 180px;
+        width: 250px;
         float: none;
         display: block;
         margin-left: auto;
