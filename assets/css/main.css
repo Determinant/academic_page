@@ -27,6 +27,13 @@
 }
 
 @font-face {
+    font-family: "Source Sans Pro Semibold";
+    src: url('../fonts/ssp-sb.eot');
+    src: url('../fonts/ssp-sb.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ssp-sb.woff') format('woff');
+}
+
+@font-face {
     font-family: "Source Sans Pro";
     src: url('../fonts/ssp.eot');
     src: url('../fonts/ssp.eot?#iefix') format('embedded-opentype'),
@@ -99,9 +106,9 @@ body {
 
 .container {
     font-family: "Helvetica Neue";
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 20px 50px;
-    max-width: 42rem;
+    max-width: 48rem;
     margin: auto;
     line-height: 1.5em;
     animation: intro 0.6s both;
@@ -149,7 +156,7 @@ a {
 }
 
 .comment {
-    color: #824e64;
+    color: #4a333d;
 }
 
 .special {
@@ -161,7 +168,8 @@ a {
 }
 
 h1 {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro Semibold";
+    font-weight: 500;
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
@@ -185,8 +193,14 @@ ul > li a {
     word-break: break-all;
 }
 
+span.paper-title {
+    font-size: 1.1rem;
+    font-family: "Source Sans Pro Semibold";
+    font-weight: 500;
+}
+
 span.author-list {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #a08490;
 }
 
@@ -207,7 +221,7 @@ table td.contact-val {
 }
 
 table.contact-table {
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-spacing: 0;
     border: none;
     padding: 0;
@@ -215,8 +229,8 @@ table.contact-table {
 
 .section-indent {
     padding-left: 40px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
 }
 
 .section-indent:last-child {
@@ -240,7 +254,7 @@ table.contact-table {
 }
 
 ul.social > li:before {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 ul > li.cv:before {
@@ -261,7 +275,7 @@ ul > li.plain:before {
     content: "";
 }
 ul > li.plain {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-left: -22px;
 }
 ul > li.blog:before {
@@ -275,6 +289,16 @@ ul > li.email:before {
 ul > li.sms:before {
     margin-left: -22px;
     content: "\f075";
+}
+ul > li.twitter:before {
+    font-family: "Font Awesome 5 Brands";
+    margin-left: -22px;
+    content: "\f099";
+}
+ul > li.telegram:before {
+    font-family: "Font Awesome 5 Brands";
+    margin-left: -22px;
+    content: "\f2c6";
 }
 
 /*! PocketGrid 1.1.0
@@ -327,7 +351,7 @@ ul > li.sms:before {
 }
 
 .social-section {
-    margin-top: -1rem;
+    margin-top: -1.1rem;
 }
 
 .social-section .two-column:last-child {
@@ -335,7 +359,7 @@ ul > li.sms:before {
 }
 
 .container h1:first-child {
-    margin-top: 1rem;
+    margin-top: 1.1rem;
 }
 
 @media (max-width: 550px) {
@@ -356,7 +380,11 @@ ul > li.sms:before {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 24px;
+    }
+
+    span.paper-title {
+        font-size: 1rem;
     }
 
     .container {
