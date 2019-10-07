@@ -362,6 +362,12 @@ ul > li.telegram:before {
     margin-top: 1.1rem;
 }
 
+.footnote {
+    text-align: right;
+    font-size: 0.95rem;
+    color: #a08490;
+}
+
 @media (max-width: 550px) {
     .banner {
         font-size: 48px;
