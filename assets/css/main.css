@@ -290,6 +290,10 @@ ul > li.sms:before {
     margin-left: -22px;
     content: "\f075";
 }
+ul > li.gpg:before {
+    margin-left: -22px;
+    content: "\f084";
+}
 ul > li.twitter:before {
     font-family: "Font Awesome 5 Brands";
     margin-left: -22px;
